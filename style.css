@@ -122,9 +122,16 @@ nav a.activo {
 }
 
 .contenido-nosotros {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
     gap: 50px;
+}
+
+.texto {
+    flex: 2;
+}
+
+.lateral {
+    flex: 1;
 }
 
 .texto h2 {
