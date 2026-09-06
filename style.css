@@ -1,5 +1,5 @@
 
-
+/* NOSOTROS Y GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -201,4 +201,41 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* SERVICIOS */
+
+#servicios {
+    padding: 20px 0;
+}
+
+.contenido-servicios {
+    display: flex;
+    gap: 50px;
+}
+
+.lista-servicios {
+    flex: 2;
+}
+
+.lista-servicios h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.servicio {
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    padding: 25px 20px;
+    margin-bottom: 5px;
+    min-height: 180px;
+}
+
+.servicio h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.servicio p {
+    line-height: 1.4;
 }
